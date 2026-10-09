@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Mahindra 81 Years — Together We Rise"
+    >
+
+    <title>Mahindra — 81 Years</title>
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         LOADER
+    ====================================================== -->
+
+    <div
+        class="loader"
+        id="loader"
+    >
+
+        <div class="loader-inner">
+
+            <div class="loader-brand">
+                MAHINDRA
+            </div>
+
+            <div class="loader-number">
+                81
+            </div>
+
+            <div class="loader-bottom">
+
+                <span>
+                    YEARS OF RISING
+                </span>
+
+                <span
+                    id="loaderPercent"
+                >
+                    0%
+                </span>
+
+            </div>
+
+            <div class="loader-progress">
+
+                <span
+                    id="loaderBar"
+                ></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         WEBGL
+    ====================================================== -->
+
+    <canvas
+        id="webgl"
+    ></canvas>
+
+
+    <!-- =====================================================
+         GRAIN
+    ====================================================== -->
+
+    <div class="grain"></div>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <a
+            href="#home"
+            class="brand"
+        >
+
+            <span class="brand-main">
+                MAHINDRA
+            </span>
+
+            <span class="brand-year">
+                81 YEARS
+            </span>
+
+        </a>
+
+
+        <div class="header-right">
+
+            <span
+                class="header-counter"
+            >
+
+                <span id="counterCurrent">
+                    01
+                </span>
+
+                <i>/</i>
+
+                <span>
+                    08
+                </span>
+
+            </span>
+
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+            >
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MENU
+    ====================================================== -->
+
+    <div
+        class="menu-overlay"
+        id="menuOverlay"
+    >
+
+        <div class="menu-inner">
+
+            <div class="menu-label">
+                EXPLORE
+            </div>
+
+            <nav>
+
+                <a href="#home">
+                    01 — HOME
+                </a>
+
+                <a href="#purpose">
+                    02 — PURPOSE
+                </a>
+
+                <a href="#history">
+                    03 — JOURNEY
+                </a>
+
+                <a href="#business">
+                    04 — OUR WORLD
+                </a>
+
+                <a href="#pillars">
+                    05 — WHO WE ARE
+                </a>
+
+                <a href="#impact">
+                    06 — IMPACT
+                </a>
+
+                <a href="#future">
+                    07 — FUTURE
+                </a>
+
+                <a href="#ending">
+                    08 — TOGETHER
+                </a>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FIXED HUD
+    ====================================================== -->
+
+    <div class="hud">
+
+        <div class="hud-top">
+            1945 — 2026
+        </div>
+
+        <div class="hud-line"></div>
+
+        <div class="hud-bottom">
+            SCROLL TO RISE
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN SCROLL WORLD
+    ====================================================== -->
+
+    <main id="experience">
+
+
+        <!-- =================================================
+             01 HERO
+        ================================================== -->
+
+        <section
+            class="world-section hero-world"
+            id="home"
+            data-world="hero"
+        >
+
+            <div class="world-content hero-content">
+
+                <div class="eyebrow">
+                    1945 — 2026
+                </div>
+
+                <h1>
+
+                    <span>
+                        81 YEARS
+                    </span>
+
+                    <span>
+                        OF RISING
+                    </span>
+
+                </h1>
+
+                <p>
+                    A journey built on courage,
+                    purpose, innovation and the
+                    belief that when others rise,
+                    we rise.
+                </p>
+
+                <div class="hero-scroll">
+
+                    <span>
+                        SCROLL
+                    </span>
+
+                    <div class="scroll-arrow">
+                        ↓
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-side">
+
+                <span>
+                    MAHINDRA GROUP
+                </span>
+
+                <span>
+                    TOGETHER WE RISE
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             02 PURPOSE
+        ================================================== -->
+
+        <section
+            class="world-section purpose-world"
+            id="purpose"
+            data-world="purpose"
+        >
+
+            <div class="purpose-number">
+                02
+            </div>
+
+
+            <div class="purpose-ring ring-one"></div>
+            <div class="purpose-ring ring-two"></div>
+            <div class="purpose-ring ring-three"></div>
+
+
+            <div class="world-content purpose-content">
+
+                <div class="eyebrow">
+                    OUR PURPOSE
+                </div>
+
+                <h2>
+
+                    ENABLE
+                    <br>
+
+                    <strong>
+                        OTHERS
+                    </strong>
+
+                    <br>
+
+                    TO RISE.
+
+                </h2>
+
+                <p>
+                    Drive positive change in the lives
+                    of our communities. Only when we
+                    enable others to rise will we rise.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             03 HISTORY
+        ================================================== -->
+
+        <section
+            class="world-section history-world"
+            id="history"
+            data-world="history"
+        >
+
+            <div class="history-track">
+
+                <div class="history-line"></div>
+
+
+                <article
+                    class="history-item history-one"
+                >
+
+                    <div class="history-year">
+                        1945
+                    </div>
+
+                    <div class="history-card">
+
+                        <span>
+                            THE BEGINNING
+                        </span>
+
+                        <h3>
+                            A JOURNEY
+                            <br>
+                            BEGINS.
+                        </h3>
+
+                        <p>
+                            From a bold beginning
+                            to a global enterprise.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="history-item history-two"
+                >
+
+                    <div class="history-year">
+                        1970
+                    </div>
+
+                    <div class="history-card">
+
+                        <span>
+                            RISE BEGINS
+                        </span>
+
+                        <h3>
+                            GROWING
+                            <br>
+                            WITH PURPOSE.
+                        </h3>
+
+                        <p>
+                            New industries.
+                            New possibilities.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="history-item history-three"
+                >
+
+                    <div class="history-year">
+                        2000
+                    </div>
+
+                    <div class="history-card">
+
+                        <span>
+                            GOING GLOBAL
+                        </span>
+
+                        <h3>
+                            INDIA
+                            <br>
+                            TO THE WORLD.
+                        </h3>
+
+                        <p>
+                            Expanding our ambition
+                            across borders.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="history-item history-four"
+                >
+
+                    <div class="history-year">
+                        2026
+                    </div>
+
+                    <div class="history-card">
+
+                        <span>
+                            TODAY
+                        </span>
+
+                        <h3>
+                            RISING
+                            <br>
+                            TOGETHER.
+                        </h3>
+
+                        <p>
+                            81 years of stories.
+                            The future is still ahead.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             04 NUMBERS
+        ================================================== -->
+
+        <section
+            class="world-section numbers-world"
+            data-world="numbers"
+        >
+
+            <div class="numbers-intro">
+
+                <span>
+                    THE SCALE OF RISE
+                </span>
+
+            </div>
+
+
+            <div class="number-stage">
+
+                <div class="big-number n-one">
+
+                    <strong>
+                        20+
+                    </strong>
+
+                    <span>
+                        INDUSTRIES
+                    </span>
+
+                </div>
+
+
+                <div class="big-number n-two">
+
+                    <strong>
+                        100+
+                    </strong>
+
+                    <span>
+                        COUNTRIES
+                    </span>
+
+                </div>
+
+
+                <div class="big-number n-three">
+
+                    <strong>
+                        327K+
+                    </strong>
+
+                    <span>
+                        PEOPLE
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="number-statement">
+
+                ONE GROUP.
+
+                <br>
+
+                MANY WORLDS.
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             05 BUSINESS WORLD
+        ================================================== -->
+
+        <section
+            class="world-section business-world"
+            id="business"
+            data-world="business"
+        >
+
+            <div class="business-intro">
+
+                <div class="eyebrow">
+                    WHAT WE DO
+                </div>
+
+                <h2>
+                    ONE WORLD.
+                    <br>
+                    <span>
+                        MANY POSSIBILITIES.
+                    </span>
+                </h2>
+
+            </div>
+
+
+            <div
+                class="business-orbit"
+                id="businessOrbit"
+            >
+
+                <article
+                    class="business-card"
+                    data-image="automotive"
+                >
+
+                    <div class="card-image">
+                        <img
+                            src="https://www.mahindra.com/sites/default/files/2026-03/Mahindra_What%20We%20Do-Automotive_.webp"
+                            alt="Mahindra Automotive"
+                        >
+                    </div>
+
+                    <div class="card-info">
+
+                        <small>
+                            01
+                        </small>
+
+                        <h3>
+                            AUTOMOTIVE
+                        </h3>
+
+                        <span>
+                            MOVE FORWARD
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="business-card"
+                    data-image="farm"
+                >
+
+                    <div class="card-image">
+                        <img
+                            src="https://www.mahindra.com/sites/default/files/2026-03/Mahindra_What%20We%20Do-Farming_%20%281%29.webp"
+                            alt="Mahindra Farm Equipment"
+                        >
+                    </div>
+
+                    <div class="card-info">
+
+                        <small>
+                            02
+                        </small>
+
+                        <h3>
+                            FARM
+                        </h3>
+
+                        <span>
+                            GROW TOGETHER
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="business-card"
+                    data-image="technology"
+                >
+
+                    <div class="card-image">
+                        <img
+                            src="https://www.mahindra.com/sites/default/files/2026-03/Mahindra_What%20We%20Do-Technology%20Services.webp"
+                            alt="Mahindra Technology"
+                        >
+                    </div>
+
+                    <div class="card-info">
+
+                        <small>
+                            03
+                        </small>
+
+                        <h3>
+                            TECHNOLOGY
+                        </h3>
+
+                        <span>
+                            IMAGINE MORE
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="business-card"
+                    data-image="hospitality"
+                >
+
+                    <div class="card-image">
+                        <img
+                            src="https://www.mahindra.com/sites/default/files/2026-03/Mahindra_What%20We%20Do%203.webp"
+                            alt="Mahindra Hospitality"
+                        >
+                    </div>
+
+                    <div class="card-info">
+
+                        <small>
+                            04
+                        </small>
+
+                        <h3>
+                            HOSPITALITY
+                        </h3>
+
+                        <span>
+                            EXPERIENCE MORE
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="business-card"
+                    data-image="logistics"
+                >
+
+                    <div class="card-image">
+                        <img
+                            src="https://www.mahindra.com/sites/default/files/2026-03/Mahindra_What%20We%20Do-Logistics%20Services.webp"
+                            alt="Mahindra Logistics"
+                        >
+                    </div>
+
+                    <div class="card-info">
+
+                        <small>
+                            05
+                        </small>
+
+                        <h3>
+                            LOGISTICS
+                        </h3>
+
+                        <span>
+                            CONNECT EVERYTHING
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="business-card"
+                    data-image="renewable"
+                >
+
+                    <div class="card-image">
+                        <img
+                            src="https://www.mahindra.com/sites/default/files/2026-03/Mahindra_What%20We%20Do-Renewable%20Services.webp"
+                            alt="Mahindra Renewable Energy"
+                        >
+                    </div>
+
+                    <div class="card-info">
+
+                        <small>
+                            06
+                        </small>
+
+                        <h3>
+                            RENEWABLES
+                        </h3>
+
+                        <span>
+                            POWER TOMORROW
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="business-progress">
+
+                <span></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             06 PILLARS
+        ================================================== -->
+
+        <section
+            class="world-section pillars-world"
+            id="pillars"
+            data-world="pillars"
+        >
+
+            <div class="pillar-background">
+                WHO WE ARE
+            </div>
+
+
+            <article
+                class="pillar pillar-purpose"
+            >
+
+                <span>
+                    01
+                </span>
+
+                <small>
+                    PILLAR
+                </small>
+
+                <h2>
+                    PURPOSE
+                    <br>
+                    LED
+                </h2>
+
+                <p>
+                    Driving positive change
+                    for people and planet.
+                </p>
+
+            </article>
+
+
+            <article
+                class="pillar pillar-performance"
+            >
+
+                <span>
+                    02
+                </span>
+
+                <small>
+                    PILLAR
+                </small>
+
+                <h2>
+                    PERFORMANCE
+                    <br>
+                    DRIVEN
+                </h2>
+
+                <p>
+                    Creating leadership
+                    through performance.
+                </p>
+
+            </article>
+
+
+            <article
+                class="pillar pillar-future"
+            >
+
+                <span>
+                    03
+                </span>
+
+                <small>
+                    PILLAR
+                </small>
+
+                <h2>
+                    FUTURE
+                    <br>
+                    READY
+                </h2>
+
+                <p>
+                    Leveraging talent
+                    and technology.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- =================================================
+             07 IMPACT
+        ================================================== -->
+
+        <section
+            class="world-section impact-world"
+            id="impact"
+            data-world="impact"
+        >
+
+            <div class="impact-left">
+
+                <span class="eyebrow">
+                    PURPOSE IN ACTION
+                </span>
+
+                <h2>
+                    RISE
+                    <br>
+                    <strong>
+                        BEYOND.
+                    </strong>
+                </h2>
+
+            </div>
+
+
+            <div class="impact-orbit">
+
+                <div class="impact-circle circle-one">
+                    PEOPLE
+                </div>
+
+                <div class="impact-circle circle-two">
+                    PLANET
+                </div>
+
+                <div class="impact-circle circle-three">
+                    FUTURE
+                </div>
+
+                <div class="impact-core">
+                    RISE
+                </div>
+
+            </div>
+
+
+            <div class="impact-bottom">
+
+                <p>
+                    Positive change is not a destination.
+                    It is a direction.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             08 FUTURE
+        ================================================== -->
+
+        <section
+            class="world-section future-world"
+            id="future"
+            data-world="future"
+        >
+
+            <div class="future-copy">
+
+                <span class="eyebrow">
+                    WHAT'S NEXT
+                </span>
+
+                <h2>
+                    THE NEXT
+                    <br>
+                    <span>
+                        RISE.
+                    </span>
+                </h2>
+
+                <p>
+                    81 years behind us.
+                    Possibilities ahead.
+                </p>
+
+            </div>
+
+
+            <div class="future-particles">
+                <div class="particle p1"></div>
+                <div class="particle p2"></div>
+                <div class="particle p3"></div>
+                <div class="particle p4"></div>
+                <div class="particle p5"></div>
+                <div class="particle p6"></div>
+                <div class="particle p7"></div>
+                <div class="particle p8"></div>
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             09 ENDING
+        ================================================== -->
+
+        <section
+            class="world-section ending-world"
+            id="ending"
+            data-world="ending"
+        >
+
+            <div class="ending-number">
+                81
+            </div>
+
+
+            <div class="ending-copy">
+
+                <span>
+                    1945 — 2026
+                </span>
+
+                <h2>
+                    WHEN OTHERS RISE,
+                    <br>
+                    <strong>
+                        WE RISE.
+                    </strong>
+                </h2>
+
+                <p>
+                    #TogetherWeRise
+                </p>
+
+            </div>
+
+
+            <div class="ending-footer">
+
+                <span>
+                    MAHINDRA GROUP
+                </span>
+
+                <span>
+                    © 2026
+                </span>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         LIBRARIES
+    ====================================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"
+    ></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+    ></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+    ></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"
+    ></script>
+
+
+    <!-- =====================================================
+         MAIN JS
+    ====================================================== -->
+
+    <script
+        src="script.js"
+    ></script>
+
+
+</body>
+
+</html>
